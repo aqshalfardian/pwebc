@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div>
+<div class="jumbotron text-center bg-dark text-white">
+  <h1>Electrics</h1>
+  <p>Fakultas Teknologi Elektro dan Informatika Cerdas <br> Institut Teknologi Sepuluh Nopember</p> 
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>Sistem Informasi</h3>
+      <p> kombinasi dari teknologi informasi dan aktivitas orang yang menggunakan teknologi itu untuk mendukung operasi dan manajemen. Dalam arti yang sangat luas, istilah sistem informasi yang sering digunakan merujuk kepada interaksi antara orang, proses algoritmik, data, dan teknologi.</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Informatika</h3>
+      <p>Disiplin ilmu komputer yaitu data maupun informasi pada mesin berbasis komputasi. Disiplin ilmu ini mencakup beberapa macam bidang, termasuk di dalamnya: sistem informasi, ilmu komputer, ilmu informasi, teknik komputer dan aplikasi informasi dalam sistem informasi manajemen.</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Teknologi Informasi</h3>        
+      <p>Teknologi Informasi, atau dalam bahasa Inggris dikenal dengan istilah Information technology adalah istilah umum untuk teknologi apa pun yang membantu manusia dalam membuat, mengubah, menyimpan, mengomunikasikan dan/atau menyebarkan informasi.</p>
+    </div>
+  </div>
+</div>
+</div>
+
+<br>
+
+<div class="container">
+ <blockquote class="blockquote">
+    <p>Technology made large populations possible; large populations now make technology indispensable.</p>
+    <footer class="blockquote-footer">Joseph Krutch (Writer)</footer>
+  </blockquote>
+</div>
+
+<br>
+
+<div class="container">
+  <h2>Informasi Kepala Jurusan</h2>
+  <p>Setiap jurusan dipimpin oleh satu orang kepala jurusan di masing-masih departemen:</p>            
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Nama</th>
+        <th>NIP</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Dr. Mudjahidin, S.T., M.T.</td>
+        <td>197010102003121001</td>
+        <td>mudjahidin@is.its.ac.id</td>
+      </tr>
+      <tr>
+        <td>Dr. Eng. Chastine Fatichah, S.Kom,, M.Kom.</td>
+        <td>-</td>
+        <td>chastine@if.its.ac.id</td>
+      </tr>
+      <tr>
+        <td>Ir. Khakim Ghozali, MMT</td>
+        <td>196403051989031004</td>
+        <td>khakim@its-sby.edu</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<br>
+
+<div class="container">
+  <h2>Situs Resmi</h2>
+  <p>Untuk informasi lebih lanjut mengenai profil setiap departemen, silahkan situs resmi kami.</p>                                    
+  <div class="dropdown">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+      Select
+    </button>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="https://www.its.ac.id/si/">Sistem Informasi</a>
+      <a class="dropdown-item" href="https://www.its.ac.id/it/id/beranda-3/">Informatika</a>
+      <a class="dropdown-item" href="https://www.its.ac.id/informatika/">Teknologi Informasi</a>
+    </div>
+  </div>
+</div>
+
+<br>
+
+<div class="container">
+  <h2>Ask Here</h2>
+  <p>untuk pertanyaan lebih lanjut silahkan tulis pada comment box dibawah ini:</p>
+  <form action="/action_page.php">
+    <div class="form-group">
+      <label for="comment">Comment:</label>
+      <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
+
+</body>
+</html>
