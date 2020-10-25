@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.dropbtn {
+  background-color: #000000;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #85959b;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #3f4548}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #bac5ca;
+}
+</style>
+</head>
+<body>
+
+<h2>CSS Learning</h2>
+<p>Please select the course below:</p>
+
+<div class="dropdown">
+  <button class="dropbtn">Choose</button>
+  <div class="dropdown-content">
+  <a href="http://https://www.w3schools.com/css/css_dropdowns.asp">CSS Dropdowns</a>
+  <a href="http://www.w3schools.com/css/css_navbar.asp">CSS Navigation Bar</a>
+  <a href="http://www.w3schools.com/css/css_image_transparency.asp">CSS Image Opacity</a>
+  </div>
+</div>
+
+<p><strong>Note:</strong> Please log in before you continue class.</p>
+
+</body>
+</html>
